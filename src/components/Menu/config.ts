@@ -4,37 +4,46 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://www.goosedefi.com/'
+    href: 'https://taco.finance/',
   },
   {
     label: 'Trade',
     icon: 'TradeIcon',
-    initialOpenState: true,
     items: [
       {
         label: 'Exchange',
-        href: '/swap'
+        href: 'https://exchange.taco.finance/',
       },
       {
         label: 'Liquidity',
-        href: '/pool'
-      }
-    ]
+        href: 'https://exchange.taco.finance/#/pool',
+      },
+    ],
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://www.goosedefi.com/farms'
+    href: 'https://taco.finance/farms',
   },
   {
-    label: 'Nests',
+    label: 'Trucks',
     icon: 'PoolIcon',
-    href: 'https://www.goosedefi.com/nests'
+    href: 'https://taco.finance/trucks',
   },
+  // {
+  //   label: 'Pools',
+  //   icon: 'PoolIcon',
+  //   href: '/pools',
+  // },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
-  //   href: 'https://www.goosedefi.com/lottery'
+  //   href: '/lottery',
+  // },
+  // {
+  //   label: 'NFT',
+  //   icon: 'NftIcon',
+  //   href: '/nft',
   // },
   {
     label: 'Info',
@@ -42,45 +51,49 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
+        href: 'https://pancakeswap.info/token/0x9066e87Bac891409D690cfEfA41379b34af06391',
       },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
-      },
+      // {
+      //   label: 'CoinGecko',
+      //   href: 'https://www.coingecko.com/en/coins/taco-finance',
+      // },
+      // {
+      //   label: 'CoinMarketCap',
+      //   href: 'https://coinmarketcap.com/currencies/taco-finance/',
+      // },
       {
         label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+        href: 'https://app.astrotools.io/pancake-pair-explorer/0x3BB3B98c0FABE30166E6B7D62aEef393249871E4', // taco-busd
       },
-    ]
+    ],
   },
   {
     label: 'More',
     icon: 'MoreIcon',
     items: [
+      // {
+      //   label: 'Forked from audited Goosedefi',
+      //   href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
+      // },
       {
-        label: "Github",
-        href: "https://github.com/goosedefi/",
+        label: 'Github',
+        href: 'https://github.com/tacofinance/',
       },
       {
-        label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
+        label: 'Docs',
+        href: 'https://taco-finance.gitbook.io/taco-finance/',
       },
       {
-        label: "Blog",
-        href: "https://goosefinance.medium.com/",
+        label: 'Blog',
+        href: 'https://taco-finance.medium.com/',
       },
     ],
   },
-  {
-    label: 'Audit by Hacken',
-    icon: 'AuditIcon',
-    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
-  },
+  // {
+  //   label: 'Forked from audited Goosedefi',
+  //   icon: 'AuditIcon',
+  //   href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
+  // },
 ]
 
 export default config
